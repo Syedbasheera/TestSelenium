@@ -33,7 +33,7 @@ driver.findElement(By.id("signInSubmit")).click();
 
 JavascriptExecutor js=(JavascriptExecutor)driver;
 js.executeScript("window.scroll(0,2000)");
-
+driver.close();
 
 
 	}
