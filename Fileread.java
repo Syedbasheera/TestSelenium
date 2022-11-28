@@ -47,7 +47,7 @@ public class Fileread {
 		driver=new SafariDriver();
 	  }
 		else{
-		System.out.println("Browser name is not matched in properties file");
+		System.out.println("Browser name not matched in properties file");
 	  
 	   }
 	
