@@ -32,7 +32,7 @@ driver.findElement(By.id("ap_password")).sendKeys("Amazon@123");
 driver.findElement(By.id("signInSubmit")).click();
 
 JavascriptExecutor js=(JavascriptExecutor)driver;
-js.executeScript("window.scroll(0,1000)");
+js.executeScript("window.scroll(0,2000)");
 
 
 
