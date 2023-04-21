@@ -58,7 +58,7 @@ public class Fileread {
 	driver.findElement(By.id("ap_email")).sendKeys(prop.getProperty("UserName"));
 	driver.findElement(By.id("continue")).click();
 	
-driver.findElement(By.id("ap_password")).sendKeys(prop.getProperty("Password1"));
+driver.findElement(By.id("ap_password")).sendKeys(prop.getProperty("Password"));
 
 driver.findElement(By.id("signInSubmit")).click();
 	}
